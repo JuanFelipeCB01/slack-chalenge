@@ -1,0 +1,70 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.header-class{
+     background-color: #541554;
+     height: 80px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 32px;
+}
+
+.created{
+    background-color: #541554;
+    padding: 16px 15.6px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.created-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button1-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color2{
+    background-color: beige;
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0px 0px;
+}
+
+.logos-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 0px 30px;
+}
+
+.car{
+    padding: 48px 0px;
+}
+
+.article-text{
+    display:flex;
+    flex-direction: column;
+    margin: 32px 0px 0px 16px;
+}
+
+.and2and3{
+    padding-top: 48px;
+}

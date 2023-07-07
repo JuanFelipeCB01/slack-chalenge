@@ -1,0 +1,36 @@
+
+.logo{
+    width: 100px;
+    height: 25px;
+}
+
+.thumb{
+    width: 25px;
+}
+
+.google-thumb{
+    background-color: whitesmoke;
+    width: 30px;
+    padding: 12px;
+    border-radius: 2px;
+}
+
+.slack-gif{
+    background-color: #541554;
+    padding-top: 30px;
+}
+
+.compay-logos{
+    margin: 10px;
+}
+
+.caracteristicas1-png{
+    width: 100%;
+    border: 1px;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+
+.left-png{
+    padding-left: 65px;
+}

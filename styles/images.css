@@ -15,9 +15,20 @@
     border-radius: 2px;
 }
 
+.slack-vid{
+    width:700px;
+    height: 400px;
+    padding-top: 20px;
+    overflow: clip;
+    justify-content: center;
+}
+
 .slack-gif{
     background-color: #541554;
     padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 700px
 }
 
 .compay-logos{
@@ -31,6 +42,33 @@
     border-top-right-radius: 1000px;
 }
 
-.left-png{
-    padding-left: 65px;
+.iframe{
+    width: 100%;
+    overflow: clip;
+    border: 2px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.link-arrow{
+    margin-left: 8px;
+    width: 20px;
+    color: #007aff;
+}
+
+.panel-img{
+    padding: 12px;
+}
+
+.slack-logo{
+    width: 54px;
+    margin-bottom: 40px;
+}
+
+.arrow2{
+    width: 14px;
+}
+
+.cloud{
+margin-right: 4px;
 }

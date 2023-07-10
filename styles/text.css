@@ -61,6 +61,12 @@
     margin-bottom: 16px;
 }
 
+.article-text{
+    display:flex;
+    flex-direction: column;
+    margin: 32px 16px 0px;
+}
+
 .second-text{
     font-size: 18px;
     font-weight: 400;
@@ -69,4 +75,104 @@
 
 .car-links{
     color: #007aff;
+}
+
+.equipos-content h3{
+    margin: 32px 0px 16px;
+}
+
+.stat-number{
+    color: #611f69;
+    font-size: 45px;
+    font-weight: 700;
+    text-align:start
+}
+
+.stat-text{
+    width: 55%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.iframe-text{
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.iframe-link{
+    padding: 16px 0px;
+    color: #007aff;
+}
+
+.encuesta{
+    font-size: 12px;
+    padding: 0px 15.6px;
+}
+
+.encuesta-text{
+    text-align: center;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.explora-title{
+    margin: 20px 0px 16px;
+    padding: 0px 15.6px;
+    text-align: center;
+}
+
+.promo-header p{
+    margin: 8px 0px 0px;
+}
+
+.promo-header h3{
+    margin: 8px 0 16px;
+    font-size: 20px;
+}
+
+.funciones{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.terms-policy{
+    padding: 0px 15.6px;
+}
+
+.nav-list{
+    padding-top: 32px;
+}
+
+.nav-item{
+    font-size: 14px;
+    font-weight: 650;
+    padding: 16px 0px;
+}
+
+.footer-descarga{
+    padding: 16px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #007aff;
+}
+
+.all-rights{
+    padding: 16px 15.5px 32px;
+    font-size: 12px;
 }

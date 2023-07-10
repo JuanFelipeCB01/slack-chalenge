@@ -16,11 +16,14 @@
 
 .created{
     background-color: #541554;
-    padding: 16px 15.6px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.created-first-part{
+    padding: 16px 15.6px 0px;
 }
 
 .created-buttons{
@@ -28,6 +31,11 @@
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+}
+
+.title-vid-wrap{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .button1-flex{
@@ -59,12 +67,161 @@
     padding: 48px 0px;
 }
 
-.article-text{
-    display:flex;
-    flex-direction: column;
-    margin: 32px 0px 0px 16px;
+.artticle{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.and2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .and2and3{
     padding-top: 48px;
+}
+
+.equipos{
+    padding: 48px 0px 24px;
+    text-align: center;
+}
+
+.equipos-content{
+    padding: 0px 15.6px;
+}
+
+.equipos-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.button-equipos1{
+    color: whitesmoke;
+    border: 2px solid #611f69;
+    background-color: #611f69;
+}
+
+.button-equipos2{
+    color: #611f69;
+    border: 2px solid #611f69;
+}
+
+.iframe-section{
+    padding-bottom: 16px;
+}
+
+.iframe-flex{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.porcentajes{
+    padding: 24px 0px 32px;
+    margin: 18px 0px 16px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.explora{
+    padding: 32px 0px;
+    background-color: beige;
+}
+
+.paneles{
+    padding: 0px 0px 24px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.panel{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px -4px;
+    border-radius: 2px;
+    height: 420px;
+    width: 285px;
+}
+
+.promo-header{
+    padding: 0px 12px;
+}
+
+.funciones{
+    display: flex;
+    padding: 40px 12px 0px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.discover{
+    background-color: #611f69;
+    padding: 80px 0px 96px;
+    align-items: center;
+    text-align: center;
+}
+
+.discover-content{
+    color: whitesmoke;
+    padding: 0px 15.6px;
+}
+
+.discover-content p{
+    font-size: 30px;
+}
+
+.discover-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.button-discover{
+    color: #611f69;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+.button-discover2{
+    color: whitesmoke;
+    background-color: #611f69;
+    border: 2px solid whitesmoke;
+}
+
+.footer-nav{
+    padding-top: 56px;
+}
+
+.footer-nav-content{
+    padding: 15.6px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.footer-descarga{
+    display: flex;
+    align-items: center;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
 }
